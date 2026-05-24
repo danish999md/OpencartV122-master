@@ -1,5 +1,6 @@
 package pageObjects;
 
+
 import java.time.Duration;
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -9,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
 public class HomePage extends BasePage{
 
 	
@@ -17,7 +19,7 @@ public class HomePage extends BasePage{
 		super(driver);
 	}
 	
-@FindBy(xpath="//span[normalize-space()='My Account']") 
+@FindBy(xpath="//span[normalize-space()='My Account']/parent::a") 
 WebElement lnkMyaccount;
 
 @FindBy(xpath="//a[normalize-space()='Register']") 
@@ -37,25 +39,24 @@ WebElement btnSearch;
 WebElement noProductMessage;
 
 
-public void clickMyAccount()
-{
-	WebDriverWait wait =
-	        new WebDriverWait(driver,
-	                Duration.ofSeconds(10));
+public void clickMyAccount() {
 
-	WebElement element =
-	        wait.until(
-	                ExpectedConditions.elementToBeClickable(
-	                		lnkMyaccount));
+    WebDriverWait wait =
+            new WebDriverWait(driver,
+                    Duration.ofSeconds(15));
 
-	JavascriptExecutor js =
-	        (JavascriptExecutor) driver;
+    WebElement element =
+            wait.until(
+                    ExpectedConditions
+                            .visibilityOf(
+                            		lnkMyaccount));
 
-	js.executeScript(
-	        "arguments[0].scrollIntoView();",
-	        element);
+    JavascriptExecutor js =
+            (JavascriptExecutor) driver;
 
-	element.click();
+    js.executeScript(
+            "arguments[0].click();",
+            element);
 }
 
 public void clickRegister()

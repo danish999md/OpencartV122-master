@@ -1,154 +1,152 @@
-2026-05-24 00:05:51 INFO  Utils:112 - [TestNG] Running:
+2026-05-25 01:39:08 INFO  Utils:112 - [TestNG] Running:
   C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
 
-2026-05-24 00:05:58 INFO  TC001_AccountRegistrationTest:188 - Application launched
-2026-05-24 00:05:58 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2026-05-24 00:05:58 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
-2026-05-24 00:05:59 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
-2026-05-24 00:05:59 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
-2026-05-24 00:06:04 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
-2026-05-24 00:06:04 INFO  TC001_AccountRegistrationTest:47 - Test passed
-2026-05-24 00:06:04 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
-2026-05-24 00:06:05 INFO  TC001_AccountRegistrationTest:278 - Browser closed
-2026-05-24 00:06:07 INFO  TC002_LoginTest:188 - Application launched
-2026-05-24 00:06:07 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2026-05-24 00:06:10 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2026-05-24 00:06:10 INFO  TC002_LoginTest:278 - Browser closed
-2026-05-24 00:06:38 INFO  Utils:112 - [TestNG] Running:
+2026-05-25 01:39:14 INFO  TC001_AccountRegistrationTest:206 - Application launched
+2026-05-25 01:39:14 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-25 01:39:24 ERROR TC001_AccountRegistrationTest:51 - Test failed: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: chrome on Windows 11 (7369d7ca6ab4214342690ded7bc013dc)] -> xpath: //span[normalize-space()='My Account']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\91979\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61822}, goog:processID: 1700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.50:4444/sess..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7369d7ca6ab4214342690ded7bc013dc
+2026-05-25 01:39:24 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-25 01:39:26 INFO  TC001_AccountRegistrationTest:296 - Browser closed
+2026-05-25 01:42:36 INFO  Utils:112 - [TestNG] Running:
   C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
 
-2026-05-24 00:06:41 INFO  TC001_AccountRegistrationTest:188 - Application launched
-2026-05-24 00:06:41 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2026-05-24 00:06:42 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
-2026-05-24 00:06:42 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
-2026-05-24 00:06:42 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
-2026-05-24 00:06:45 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
-2026-05-24 00:06:45 INFO  TC001_AccountRegistrationTest:47 - Test passed
-2026-05-24 00:06:45 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
-2026-05-24 00:06:45 INFO  TC001_AccountRegistrationTest:278 - Browser closed
-2026-05-24 00:06:49 INFO  TC002_LoginTest:188 - Application launched
-2026-05-24 00:06:49 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2026-05-24 00:06:51 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2026-05-24 00:06:51 INFO  TC002_LoginTest:278 - Browser closed
-2026-05-24 00:08:30 INFO  Utils:112 - [TestNG] Running:
+2026-05-25 01:42:40 INFO  TC001_AccountRegistrationTest:206 - Application launched
+2026-05-25 01:42:40 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-25 01:42:51 ERROR TC001_AccountRegistrationTest:51 - Test failed: element not interactable
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6f8b2139015bbab91f891f910f026dbe, clickElement {id=f.11E02ADFFB233E926669742CDC1AA8AD.d.3266B86AD7B3AB220A1C304110D222F5.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\91979\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59830}, goog:processID: 9456, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.50:4444/sess..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (6f8b2139015bbab91f891f910f026dbe)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 6f8b2139015bbab91f891f910f026dbe
+2026-05-25 01:42:51 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-25 01:42:51 INFO  TC001_AccountRegistrationTest:296 - Browser closed
+2026-05-25 01:48:22 INFO  Utils:112 - [TestNG] Running:
   C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
 
-2026-05-24 00:09:59 INFO  Utils:112 - [TestNG] Running:
+2026-05-25 01:48:25 INFO  TC001_AccountRegistrationTest:206 - Application launched
+2026-05-25 01:48:25 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-25 01:48:35 ERROR TC001_AccountRegistrationTest:51 - Test failed: element not interactable
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [b4d5009e920c6277bec97caf80b8ecd4, clickElement {id=f.1ECCD75E25F01815E3C765D92B1ED268.d.C88EA822181D2F4AA0277F2A7FFA96AD.e.51}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\91979\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49265}, goog:processID: 11892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.50:4444/sess..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (b4d5009e920c6277bec97caf80b8ecd4)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: b4d5009e920c6277bec97caf80b8ecd4
+2026-05-25 01:48:35 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-25 01:48:35 INFO  TC001_AccountRegistrationTest:296 - Browser closed
+2026-05-25 01:51:08 INFO  Utils:112 - [TestNG] Running:
   C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
 
-2026-05-24 00:10:15 INFO  TC001_AccountRegistrationTest:188 - Application launched
-2026-05-24 00:10:15 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2026-05-24 00:10:15 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
-2026-05-24 00:10:16 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
-2026-05-24 00:10:16 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
-2026-05-24 00:10:21 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
-2026-05-24 00:10:21 INFO  TC001_AccountRegistrationTest:47 - Test passed
-2026-05-24 00:10:21 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
-2026-05-24 00:10:21 INFO  TC001_AccountRegistrationTest:278 - Browser closed
-2026-05-24 00:10:24 INFO  TC002_LoginTest:188 - Application launched
-2026-05-24 00:10:25 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2026-05-24 00:10:27 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2026-05-24 00:10:28 INFO  TC002_LoginTest:278 - Browser closed
-2026-05-24 00:12:56 INFO  Utils:112 - [TestNG] Running:
+2026-05-25 01:51:11 INFO  TC001_AccountRegistrationTest:206 - Application launched
+2026-05-25 01:51:11 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-25 01:51:21 ERROR TC001_AccountRegistrationTest:51 - Test failed: element not interactable
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [87fe189117b15c0663973049b4b5aab6, clickElement {id=f.0FD7135ADEA086F7C47E723FB4309DE9.d.0BC8274FF4A326F954CFE8BB78AA04F1.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\91979\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56617}, goog:processID: 21488, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.50:4444/sess..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (87fe189117b15c0663973049b4b5aab6)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 87fe189117b15c0663973049b4b5aab6
+2026-05-25 01:51:21 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-25 01:51:22 INFO  TC001_AccountRegistrationTest:296 - Browser closed
+2026-05-25 01:54:33 INFO  Utils:112 - [TestNG] Running:
   C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
 
-2026-05-24 00:12:56 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2026-05-24 00:12:56 ERROR TC001_AccountRegistrationTest:51 - Test failed: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-2026-05-24 00:12:56 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
-2026-05-24 00:12:56 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2026-05-24 00:13:26 INFO  Utils:112 - [TestNG] Running:
+2026-05-25 01:54:37 INFO  TC001_AccountRegistrationTest:206 - Application launched
+2026-05-25 01:54:37 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-25 01:54:37 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-25 01:54:38 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-25 01:54:38 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-25 01:54:41 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-25 01:54:41 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2026-05-25 01:54:41 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-25 01:54:41 INFO  TC001_AccountRegistrationTest:296 - Browser closed
+2026-05-25 01:59:08 INFO  Utils:112 - [TestNG] Running:
   C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
 
-2026-05-24 00:43:44 INFO  Utils:112 - [TestNG] Running:
+2026-05-25 01:59:12 INFO  TC001_AccountRegistrationTest:206 - Application launched
+2026-05-25 01:59:12 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-25 01:59:12 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-25 01:59:13 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-25 01:59:13 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-25 01:59:16 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-25 01:59:26 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-25 01:59:26 INFO  TC001_AccountRegistrationTest:296 - Browser closed
+2026-05-25 02:01:26 INFO  Utils:112 - [TestNG] Running:
   C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
 
-2026-05-24 00:56:57 INFO  Utils:112 - [TestNG] Running:
+2026-05-25 02:01:29 INFO  TC001_AccountRegistrationTest:206 - Application launched
+2026-05-25 02:01:29 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-25 02:01:40 ERROR TC001_AccountRegistrationTest:51 - Test failed: element not interactable
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [7d62d4b86f298c961dac3fc5d2bda5b4, clickElement {id=f.96D6C243CE7F787046BCDFEE044C011E.d.94057525B52E98DFE587DE550C131AFA.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\91979\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51617}, goog:processID: 20016, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.50:4444/sess..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (7d62d4b86f298c961dac3fc5d2bda5b4)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 7d62d4b86f298c961dac3fc5d2bda5b4
+2026-05-25 02:01:40 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-25 02:01:40 INFO  TC001_AccountRegistrationTest:296 - Browser closed
+2026-05-25 02:02:33 INFO  Utils:112 - [TestNG] Running:
   C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
 
-2026-05-24 00:57:02 INFO  TC001_AccountRegistrationTest:188 - Application launched
-2026-05-24 00:57:02 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2026-05-24 00:57:02 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
-2026-05-24 00:57:03 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
-2026-05-24 00:57:03 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
-2026-05-24 00:57:05 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
-2026-05-24 00:57:05 INFO  TC001_AccountRegistrationTest:47 - Test passed
-2026-05-24 00:57:05 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
-2026-05-24 00:57:05 INFO  TC001_AccountRegistrationTest:278 - Browser closed
-2026-05-24 00:57:07 INFO  TC002_LoginTest:188 - Application launched
-2026-05-24 00:57:07 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2026-05-24 00:57:08 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2026-05-24 00:57:08 INFO  TC002_LoginTest:278 - Browser closed
-2026-05-24 00:58:51 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\91979\eclipse-workspace\OpencartV122-master\crossbrowsertesting.xml
-
-2026-05-24 11:55:31 INFO  Utils:112 - [TestNG] Running:
+2026-05-25 02:02:38 INFO  TC001_AccountRegistrationTest:206 - Application launched
+2026-05-25 02:02:39 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-25 02:02:39 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-25 02:02:40 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-25 02:02:40 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-25 02:02:47 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-25 02:02:47 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2026-05-25 02:02:47 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-25 02:02:49 INFO  TC001_AccountRegistrationTest:296 - Browser closed
+2026-05-25 02:08:04 INFO  Utils:112 - [TestNG] Running:
   C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
 
-2026-05-24 11:56:21 INFO  Utils:112 - [TestNG] Running:
+2026-05-25 02:08:07 INFO  TC001_AccountRegistrationTest:206 - Application launched
+2026-05-25 02:08:07 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-25 02:08:07 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-25 02:08:08 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-25 02:08:08 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-25 02:08:11 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-25 02:08:11 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2026-05-25 02:08:11 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-25 02:08:11 INFO  TC001_AccountRegistrationTest:296 - Browser closed
+2026-05-25 02:08:35 INFO  Utils:112 - [TestNG] Running:
   C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
 
-2026-05-24 11:57:47 INFO  Utils:112 - [TestNG] Running:
+2026-05-25 02:08:38 INFO  TC001_AccountRegistrationTest:206 - Application launched
+2026-05-25 02:08:38 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-25 02:08:39 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-25 02:08:39 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-25 02:08:39 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-25 02:08:42 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-25 02:08:42 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2026-05-25 02:08:42 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-25 02:08:42 INFO  TC001_AccountRegistrationTest:296 - Browser closed
+2026-05-25 02:09:30 INFO  Utils:112 - [TestNG] Running:
   C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
 
-2026-05-24 11:58:50 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
-
-2026-05-24 11:59:34 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
-
-2026-05-24 12:12:10 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
-
-2026-05-24 12:12:56 INFO  TC001_AccountRegistrationTest:192 - Application launched
-2026-05-24 12:12:56 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2026-05-24 12:12:56 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
-2026-05-24 12:12:58 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
-2026-05-24 12:12:58 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
-2026-05-24 12:13:00 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
-2026-05-24 12:13:00 INFO  TC001_AccountRegistrationTest:47 - Test passed
-2026-05-24 12:13:00 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
-2026-05-24 12:13:00 INFO  TC001_AccountRegistrationTest:282 - Browser closed
-2026-05-24 12:13:02 INFO  TC002_LoginTest:192 - Application launched
-2026-05-24 12:13:02 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2026-05-24 12:13:04 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2026-05-24 12:13:05 INFO  TC002_LoginTest:282 - Browser closed
-2026-05-24 12:16:25 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
-
-2026-05-24 12:16:28 INFO  TC001_AccountRegistrationTest:192 - Application launched
-2026-05-24 12:16:28 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2026-05-24 12:16:28 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
-2026-05-24 12:16:29 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
-2026-05-24 12:16:29 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
-2026-05-24 12:16:31 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
-2026-05-24 12:16:31 INFO  TC001_AccountRegistrationTest:47 - Test passed
-2026-05-24 12:16:31 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
-2026-05-24 12:16:32 INFO  TC001_AccountRegistrationTest:282 - Browser closed
-2026-05-24 12:16:34 INFO  TC002_LoginTest:192 - Application launched
-2026-05-24 12:16:34 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2026-05-24 12:16:37 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2026-05-24 12:16:37 INFO  TC002_LoginTest:282 - Browser closed
-2026-05-24 12:17:26 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
-
-2026-05-24 12:17:30 INFO  TC001_AccountRegistrationTest:192 - Application launched
-2026-05-24 12:17:30 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2026-05-24 12:17:31 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
-2026-05-24 12:17:31 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
-2026-05-24 12:17:31 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
-2026-05-24 12:17:34 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
-2026-05-24 12:17:34 INFO  TC001_AccountRegistrationTest:47 - Test passed
-2026-05-24 12:17:34 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
-2026-05-24 12:17:34 INFO  TC001_AccountRegistrationTest:282 - Browser closed
-2026-05-24 15:07:43 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
-
-2026-05-24 15:07:51 INFO  TC001_AccountRegistrationTest:189 - Application launched
-2026-05-24 15:07:51 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2026-05-24 15:07:52 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
-2026-05-24 15:07:53 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
-2026-05-24 15:07:53 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
-2026-05-24 15:07:55 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
-2026-05-24 15:07:55 INFO  TC001_AccountRegistrationTest:47 - Test passed
-2026-05-24 15:07:55 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
-2026-05-24 15:07:55 INFO  TC001_AccountRegistrationTest:279 - Browser closed
+2026-05-25 02:09:33 INFO  TC001_AccountRegistrationTest:206 - Application launched
+2026-05-25 02:09:33 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-25 02:09:33 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-25 02:09:33 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-25 02:09:33 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-25 02:09:36 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-25 02:09:36 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2026-05-25 02:09:36 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-25 02:09:37 INFO  TC001_AccountRegistrationTest:296 - Browser closed
+2026-05-25 02:09:39 INFO  TC002_LoginTest:206 - Application launched
+2026-05-25 02:09:39 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2026-05-25 02:09:41 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2026-05-25 02:09:41 INFO  TC002_LoginTest:296 - Browser closed
