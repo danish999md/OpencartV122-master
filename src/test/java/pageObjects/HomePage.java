@@ -1,8 +1,13 @@
 package pageObjects;
 
+import java.time.Duration;
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage{
 
@@ -34,7 +39,23 @@ WebElement noProductMessage;
 
 public void clickMyAccount()
 {
-	lnkMyaccount.click();
+	WebDriverWait wait =
+	        new WebDriverWait(driver,
+	                Duration.ofSeconds(10));
+
+	WebElement element =
+	        wait.until(
+	                ExpectedConditions.elementToBeClickable(
+	                		lnkMyaccount));
+
+	JavascriptExecutor js =
+	        (JavascriptExecutor) driver;
+
+	js.executeScript(
+	        "arguments[0].scrollIntoView();",
+	        element);
+
+	element.click();
 }
 
 public void clickRegister()
