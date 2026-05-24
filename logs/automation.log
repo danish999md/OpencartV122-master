@@ -1,0 +1,154 @@
+2026-05-24 00:05:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 00:05:58 INFO  TC001_AccountRegistrationTest:188 - Application launched
+2026-05-24 00:05:58 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-24 00:05:58 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-24 00:05:59 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-24 00:05:59 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-24 00:06:04 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-24 00:06:04 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2026-05-24 00:06:04 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-24 00:06:05 INFO  TC001_AccountRegistrationTest:278 - Browser closed
+2026-05-24 00:06:07 INFO  TC002_LoginTest:188 - Application launched
+2026-05-24 00:06:07 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2026-05-24 00:06:10 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2026-05-24 00:06:10 INFO  TC002_LoginTest:278 - Browser closed
+2026-05-24 00:06:38 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 00:06:41 INFO  TC001_AccountRegistrationTest:188 - Application launched
+2026-05-24 00:06:41 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-24 00:06:42 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-24 00:06:42 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-24 00:06:42 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-24 00:06:45 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-24 00:06:45 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2026-05-24 00:06:45 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-24 00:06:45 INFO  TC001_AccountRegistrationTest:278 - Browser closed
+2026-05-24 00:06:49 INFO  TC002_LoginTest:188 - Application launched
+2026-05-24 00:06:49 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2026-05-24 00:06:51 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2026-05-24 00:06:51 INFO  TC002_LoginTest:278 - Browser closed
+2026-05-24 00:08:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 00:09:59 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 00:10:15 INFO  TC001_AccountRegistrationTest:188 - Application launched
+2026-05-24 00:10:15 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-24 00:10:15 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-24 00:10:16 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-24 00:10:16 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-24 00:10:21 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-24 00:10:21 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2026-05-24 00:10:21 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-24 00:10:21 INFO  TC001_AccountRegistrationTest:278 - Browser closed
+2026-05-24 00:10:24 INFO  TC002_LoginTest:188 - Application launched
+2026-05-24 00:10:25 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2026-05-24 00:10:27 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2026-05-24 00:10:28 INFO  TC002_LoginTest:278 - Browser closed
+2026-05-24 00:12:56 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 00:12:56 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-24 00:12:56 ERROR TC001_AccountRegistrationTest:51 - Test failed: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-05-24 00:12:56 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-24 00:12:56 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2026-05-24 00:13:26 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 00:43:44 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 00:56:57 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 00:57:02 INFO  TC001_AccountRegistrationTest:188 - Application launched
+2026-05-24 00:57:02 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-24 00:57:02 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-24 00:57:03 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-24 00:57:03 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-24 00:57:05 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-24 00:57:05 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2026-05-24 00:57:05 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-24 00:57:05 INFO  TC001_AccountRegistrationTest:278 - Browser closed
+2026-05-24 00:57:07 INFO  TC002_LoginTest:188 - Application launched
+2026-05-24 00:57:07 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2026-05-24 00:57:08 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2026-05-24 00:57:08 INFO  TC002_LoginTest:278 - Browser closed
+2026-05-24 00:58:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\crossbrowsertesting.xml
+
+2026-05-24 11:55:31 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 11:56:21 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 11:57:47 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 11:58:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 11:59:34 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 12:12:10 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 12:12:56 INFO  TC001_AccountRegistrationTest:192 - Application launched
+2026-05-24 12:12:56 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-24 12:12:56 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-24 12:12:58 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-24 12:12:58 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-24 12:13:00 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-24 12:13:00 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2026-05-24 12:13:00 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-24 12:13:00 INFO  TC001_AccountRegistrationTest:282 - Browser closed
+2026-05-24 12:13:02 INFO  TC002_LoginTest:192 - Application launched
+2026-05-24 12:13:02 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2026-05-24 12:13:04 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2026-05-24 12:13:05 INFO  TC002_LoginTest:282 - Browser closed
+2026-05-24 12:16:25 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 12:16:28 INFO  TC001_AccountRegistrationTest:192 - Application launched
+2026-05-24 12:16:28 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-24 12:16:28 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-24 12:16:29 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-24 12:16:29 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-24 12:16:31 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-24 12:16:31 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2026-05-24 12:16:31 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-24 12:16:32 INFO  TC001_AccountRegistrationTest:282 - Browser closed
+2026-05-24 12:16:34 INFO  TC002_LoginTest:192 - Application launched
+2026-05-24 12:16:34 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2026-05-24 12:16:37 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2026-05-24 12:16:37 INFO  TC002_LoginTest:282 - Browser closed
+2026-05-24 12:17:26 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 12:17:30 INFO  TC001_AccountRegistrationTest:192 - Application launched
+2026-05-24 12:17:30 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-24 12:17:31 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-24 12:17:31 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-24 12:17:31 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-24 12:17:34 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-24 12:17:34 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2026-05-24 12:17:34 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-24 12:17:34 INFO  TC001_AccountRegistrationTest:282 - Browser closed
+2026-05-24 15:07:43 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91979\eclipse-workspace\OpencartV122-master\master.xml
+
+2026-05-24 15:07:51 INFO  TC001_AccountRegistrationTest:189 - Application launched
+2026-05-24 15:07:51 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2026-05-24 15:07:52 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2026-05-24 15:07:53 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2026-05-24 15:07:53 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2026-05-24 15:07:55 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2026-05-24 15:07:55 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2026-05-24 15:07:55 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2026-05-24 15:07:55 INFO  TC001_AccountRegistrationTest:279 - Browser closed
