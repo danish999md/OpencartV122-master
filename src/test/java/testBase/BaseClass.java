@@ -17,9 +17,11 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -39,10 +41,11 @@ public class BaseClass {
 
     public Properties p;
 
-    // =========================
-    // SETUP
-    // =========================
+    public boolean isHeadless() {
 
+        return Boolean.parseBoolean(
+                p.getProperty("headless"));
+    }
     
     @BeforeClass(groups = {"sanity","regression","master"})
     @Parameters({"os","browser"})
@@ -72,8 +75,7 @@ public class BaseClass {
         if (p.getProperty("execution_env")
                 .equalsIgnoreCase("remote")) {
 
-            DesiredCapabilities capabilities =
-                    new DesiredCapabilities();
+            DesiredCapabilities capabilities =new DesiredCapabilities();
 
             // OS
 
@@ -100,38 +102,53 @@ public class BaseClass {
 
             switch (br.toLowerCase()) {
 
-                case "chrome":
+            case "chrome":
 
-                    capabilities.setBrowserName("chrome");
+                ChromeOptions chromeOptions =new ChromeOptions();
+                if (Boolean.parseBoolean(p.getProperty("headless")))
+                {
+                    chromeOptions.addArguments("--headless=new");
+                    chromeOptions.addArguments("--window-size=1920,1080");
+                }
+                
+                chromeOptions.merge(capabilities);
+                capabilities.setBrowserName("chrome");
+                driver =new RemoteWebDriver(URI.create("http://localhost:4444").toURL(),chromeOptions);
+                break;
 
-                    break;
+            case "edge":
 
-                case "edge":
+                EdgeOptions edgeOptions =new EdgeOptions();
+                if (Boolean.parseBoolean(p.getProperty("headless"))) 
+                {
+                    edgeOptions.addArguments("--headless=new");
+                    edgeOptions.addArguments("--window-size=1920,1080");
+                }
 
-                    capabilities.setBrowserName("MicrosoftEdge");
+                edgeOptions.merge(capabilities);
+                capabilities.setBrowserName("MicrosoftEdge");
+                driver =new RemoteWebDriver(URI.create("http://localhost:4444").toURL(),edgeOptions);
+                break;
 
-                    break;
+            case "firefox":
 
-                case "firefox":
+                FirefoxOptions firefoxOptions =new FirefoxOptions();
+                if (Boolean.parseBoolean(p.getProperty("headless"))) 
+                {
+                    firefoxOptions.addArguments("--headless");
+                }
 
-                    capabilities.setBrowserName("firefox");
+                firefoxOptions.merge(capabilities);
+                capabilities.setBrowserName("firefox");
+                driver =new RemoteWebDriver(URI.create("http://localhost:4444").toURL(),firefoxOptions);
+                break;
 
-                    break;
+            default:
 
-                default:
-
-                    System.out.println("Invalid Browser");
-
-                    return;
-            }
-
-            driver =
-                    new RemoteWebDriver(
-                            URI.create(
-                                    "http://localhost:4444/wd/hub")
-                                    .toURL(),
-                            capabilities);
+                System.out.println("Invalid Browser");
+                return;
         }
+    }
 
         // =========================
         // LOCAL EXECUTION

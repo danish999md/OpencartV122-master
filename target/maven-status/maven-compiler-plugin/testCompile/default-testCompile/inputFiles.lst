@@ -1,7 +1,7 @@
 C:\Users\91979\eclipse-workspace\OpencartV122-master\src\test\java\testBase\BaseClass.java
+C:\Users\91979\eclipse-workspace\OpencartV122-master\src\test\java\utilities\ScreenshotUtil.java
 C:\Users\91979\eclipse-workspace\OpencartV122-master\src\test\java\pageObjects\AccountRegistrationPage.java
 C:\Users\91979\eclipse-workspace\OpencartV122-master\src\test\java\pageObjects\MyAccountPage.java
-C:\Users\91979\eclipse-workspace\OpencartV122-master\src\test\java\testCases\TC_004_Search.java
 C:\Users\91979\eclipse-workspace\OpencartV122-master\src\test\java\utilities\ExcelUtility.java
 C:\Users\91979\eclipse-workspace\OpencartV122-master\src\test\java\pageObjects\HomePage.java
 C:\Users\91979\eclipse-workspace\OpencartV122-master\src\test\java\testCases\TC001_AccountRegistrationTest.java
@@ -11,3 +11,4 @@ C:\Users\91979\eclipse-workspace\OpencartV122-master\src\test\java\utilities\Dat
 C:\Users\91979\eclipse-workspace\OpencartV122-master\src\test\java\utilities\ExtentReportManager.java
 C:\Users\91979\eclipse-workspace\OpencartV122-master\src\test\java\pageObjects\LoginPage.java
 C:\Users\91979\eclipse-workspace\OpencartV122-master\src\test\java\testCases\TC002_LoginTest.java
+C:\Users\91979\eclipse-workspace\OpencartV122-master\src\test\java\testCases\TC004_SearchTest.java
